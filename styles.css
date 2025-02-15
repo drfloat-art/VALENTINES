@@ -1,0 +1,69 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #ffa3fc;
+    color: #ff00dd;
+}
+
+.container {
+    margin-top: 50px;
+    transition: opacity 1s ease-in-out;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+#yesBtn {
+    background-color: #ff00dd;
+    color: rgb(255, 255, 255);
+}
+
+#noBtn {
+    background-color: #ff00dd;
+    color: rgb(255, 255, 255);
+    position: absolute;
+}
+
+#loveBtn {
+    background-color: #ff00dd;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#loveText {
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.6;
+    text-align: center;
+    white-space: pre-line;
+    opacity: 0;
+    transition: opacity 2s ease-in-out, transform 3s ease-in-out;
+    transform: translateY(-20px);
+}
+
+.footer-text {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    display: none; /* Initially hidden */
+}
+
+.dog-img {
+    width: 200px;
+    margin-top: 20px;
+    display: none; /* Initially hidden */
+}
